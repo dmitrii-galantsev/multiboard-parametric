@@ -187,6 +187,7 @@ module multiboard_corner_base(x_cells, y_cells) {
 
 
 module multiboard_core(x_cells, y_cells) {
+  render()
   difference() {
     multiboard_core_base(x_cells, y_cells);
 
@@ -206,6 +207,7 @@ module multiboard_core(x_cells, y_cells) {
 }
 
 module multiboard_side(x_cells, y_cells) {
+  render()
   difference() {
     multiboard_side_base(x_cells, y_cells);
 
@@ -225,6 +227,7 @@ module multiboard_side(x_cells, y_cells) {
 }
 
 module multiboard_corner(x_cells, y_cells) {
+  render()
   difference() {
     multiboard_corner_base(x_cells, y_cells);
 
