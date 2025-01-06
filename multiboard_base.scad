@@ -1,6 +1,6 @@
-x_cells = 8;
-y_cells = 6;
-type = "core"; // side or corner
+x_cells = 8; // [1:1:9]
+y_cells = 6; // [1:1:9]
+type = "core"; // [core,side,corner]
 
 // eps = 0.01;
 
